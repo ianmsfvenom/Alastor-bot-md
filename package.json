@@ -1,5 +1,5 @@
 {
-  "name": "alastor-bot",
+  "name": "abot",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -39,7 +39,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "author": "Briz4lok4",
   "description": "Bot em pt-br com base original 100% BR usando api baileys-md"

@@ -84,6 +84,17 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ┋   🕹️ 𝙅𝙊𝙂𝙊𝙎 🕹️
 ┋
 ┋╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
+┋┋ 
+┋┋ 💣𝘾𝘼𝙈𝙋𝙊 𝙈𝙄𝙉𝘼𝘿𝙊💣
+┋┋
+┋┋ ${p}minado (difficult)
+┋┋ ${p}mina (coord)
+┋┋ ${p}minatips
+┋┋ ${p}mineshelp
+┋┋ ${p}minareset
+┋╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
+┋
+┋╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋┋ 😃 𝑫𝑰𝑽𝑬𝑹𝑺𝑨̃𝑶 😃
 ┋┋ 
 ┋┋ ${p}jogodaforca
@@ -163,6 +174,33 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ┋ ${p}gpvotostatus 
 ┋ ${p}gpvoto 
 ┋ ${p}gpvotofinish 
+╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
+
+╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
+┋ 🕵🏻‍♂️ 𝘾𝙊𝙉𝙎𝙐𝙇𝙏𝘼𝙎 🕵🏻‍♂️
+┋
+┋ ${p}ddd (ddd)
+┋ ${p}cep (cep)
+┋ ${p}ip (ip)
+┋ ${p}geo (local)
+┋ ${p}encomenda (code)
+┋ ${p}cnpj (cnpj)
+╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
+
+╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
+┋ 🔎 𝙋𝙀𝙎𝙌𝙐𝙄𝙎𝘼 🔎
+┋
+┋ ${p}wikipedia (txt)
+┋ ${p}gsearch (txt)
+┋ ${p}gmaps (txt)
+┋ ${p}pensador (txt)
+┋ ${p}thumbzilla (txt)
+┋ ${p}xvideos (txt)
+┋ ${p}xanimu (txt)
+┋ ${p}rule34 (txt)
+┋ ${p}fapster (txt)
+┋ ${p}xnxx (txt)
+┋ ${p}thumbzilla (txt)
 ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
 
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
@@ -325,20 +363,26 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ┋ ${p}nhentai ❮code❯
 ┋ ${p}nsfw (1 or 0) 
 ┋ ${p}randomhentai  
-┋ ${p}nsfwblowjob  
-┋ ${p}nsfwneko 
-┋ ${p}nsfwtrap 
+┋ ${p}nsfwneko
+┋ ${p}public
+┋ ${p}orgy
+┋ ${p}pantsu
+┋ ${p}glasses
+┋ ${p}cuckold
+┋ ${p}thighs
+┋ ${p}pussy
+┋ ${p}ahegao
+┋ ${p}uniform
+┋ ${p}gangbang
+┋ ${p}tentacles
+┋ ${p}manga
+┋ ${p}incest
+┋ ${p}creampie
 ┋ ${p}anal  
-┋ ${p}cum 
 ┋ ${p}yuri 
-┋ ${p}hentainekogif  
-┋ ${p}futanari  
-┋ ${p}nsfwfeet 
-┋ ${p}nsfwfeetgif 
-┋ ${p}girlmasturbate  
-┋ ${p}girlmasturbategif  
-┋ ${p}lesbian 
-┋ ${p}eroyuri 
+┋ ${p}hentainekogif    
+┋ ${p}nsfwfeet  
+┋ ${p}girlmasturbate 
 ┋ ${p}eroneko
 ┋ ${p}erokitsune 
 ┋ ${p}spank
@@ -370,6 +414,38 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ┋ ${p}gostoso (num1)
 ┋ ${p}gostosa (num1)
 ┋ ${p}randomship (n1, n/a)
+╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
+
+╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
+┋ 🖍️ 𝙇𝙊𝙂𝙊𝙎 🖍️
+┋
+┋ ${p}graffiti (txt)
+┋ ${p}shinerainbow (txt)
+┋ ${p}glowing (txt)
+┋ ${p}gradient (txt)
+┋ ${p}cemitery (txt)
+┋ ${p}coffev2 (txt)
+┋ ${p}coffe (txt)
+┋ ${p}love (txt)
+┋ ${p}naruto (txt)
+┋ ${p}undergrass (txt)
+┋ ${p}flower (txt)
+┋ ${p}ph (t1)|(t2)
+┋ ${p}marvel (t1)|(t2)
+┋ ${p}avengers (t1)|(t2)
+┋ ${p}thunder (txt)
+┋ ${p}dropwater (txt)
+┋ ${p}neonlight (txt)
+┋ ${p}imglitch (txt)
+┋ ${p}bearlogo (txt)
+┋ ${p}lionlogo (t1)|(t2)
+┋ ${p}wolflogo (t1)|(t2)
+┋ ${p}wolflogo (t1)|(t2)
+┋ ${p}matrix (txt)
+┋ ${p}box3d (txt)
+┋ ${p}space (txt)
+┋ ${p}circuit (txt)
+┋ ${p}magma (txt)
 ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
 `
 }
