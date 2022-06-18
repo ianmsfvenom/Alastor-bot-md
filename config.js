@@ -12,15 +12,8 @@ const registeruser = false
 
 const callbotmsgs = ['bot', 'alastor']
 
-var gimagenotregister = false
-// quando não há comando registrado o bot procura no google image
-
-var sgooglenotregister = false
-// quando não há comando registrado o bot procura uma pesquisa no google
-
 const antinewchatmsg = 'O anti chat novo está ativado e você não é meu proprietário, logo será bloqueado'
 //mensagem do antinewchat
-
 
 const antipvmsg = '*🚫 PV BLOQUEADO 🚫*'
 //mensagem do antipv
@@ -29,12 +22,6 @@ const limitqnt = 9999
 
 const delayantispamcmd = 3
 //tempo de delay do antispamcmd (medido por segundos)
-
-const delaystealcmd = 60
-//tempo de delay dos comandos steal (medido por segundos)
-
-const delaygamescmd = 60
-//tempo de delay dos comandos de games (medido por segundos)
 
 const msgwelcomeimg = (numero, groupname) => {
     return `Seja bem-vindo ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
@@ -69,12 +56,6 @@ const backgroundwelcomeimg = `https://images.squarespace-cdn.com/content/v1/5da7
 const backgroundbyeimg = `https://i.imgur.com/2TCj9ri.jpg`
 //Link direto da imagem de fundo das despedidas TAMANHO RECOMENDADO: 1280x720
 //Obs: não coloque o texto longo para a imagem não sumir
-
-const apikeyimgbb = 'c9cf132756510ad171587fb5a5a0389f'
-// sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
-
-const cr = '✟🔥⃢⃟𝘼𝙇𝘼⃟𝙎𝙏𝙊𝙍 𝘽𝙊⃟𝙏🔥✟\n' 
-// texto do simbolo de verificado
 
 const prefix = '!' 
 // prefixo
@@ -115,16 +96,6 @@ const banmsglink = '*Links não serão tolerados aqui, até nunca escória...*'
 
 const adminmsglink = '*Olá senhor adm, você mandou um link neste grupo, porém vou fingir que não vi nada*'
 // mensagem de quando adm manda link
-
-const adminmsgpalavra = 'Caro adm, tais palavras estão proibidas no grupo, cuidado ao pronuncia-las'
-// mensagem de quando adm manda uma palavra proibida pelo bot
-
-const banmsgpalavra = '*Esse tipo de vocabulário nao será tolerado no grupo, até nunca insolente...*'
-// mensagem de ban quando manda uma palavra proibida pelo bot
-
-const qnttravahardroleta = 2
-// quantidade de travas que mandam no roleta russa hard
-// Obs: O valor é multiplicado por 12 ent tenha cuidado
 
 // MENSAGENS DE BOM DIA BOA TARDE E BOA NOITE
 
@@ -240,8 +211,6 @@ ${prefix}votobroad - Faz uma transmissão da votação para todos que usam o bot
 
 // Nem ouse mexer aqui se n quiser que de erro
 exports.registeruser = registeruser
-exports.delaygamescmd = delaygamescmd
-exports.delaystealcmd = delaystealcmd
 exports.gpvotohelp = gpvotohelp
 exports.votohelp = votohelp
 exports.ativohelp = ativohelp
@@ -254,17 +223,11 @@ exports.backgroundwelcomeimg = backgroundwelcomeimg
 exports.backgroundmenuimg = backgroundmenuimg
 exports.titlemenumsgimg = titlemenumsgimg
 exports.menumsgimg = menumsgimg
-exports.gimagenotregister = gimagenotregister
-exports.sgooglenotregister = sgooglenotregister
 exports.byemsgimg = byemsgimg
 exports.msgwelcomeimg = msgwelcomeimg
 exports.notregister = notregister
-exports.qnttravahardroleta = qnttravahardroleta
 exports.blockedcmdmsg = blockedcmdmsg
 exports.blockedmsg = blockedmsg
-exports.banmsgpalavra = banmsgpalavra
-exports.adminmsgpalavra = adminmsgpalavra
-exports.apikeyimgbb = apikeyimgbb
 exports.linkbotlindo = linkbotlindo
 exports.botlindo = botlindo
 exports.botfeio = botfeio
@@ -293,7 +256,6 @@ exports.banmsgtype = banmsgtype
 exports.msgerr = msgerr
 exports.mess = mess
 exports.prefix = prefix
-exports.cr = cr
 exports.vcard = vcard
 exports.OriginalOwner = OriginalOwner
 exports.ownerNumber = ownerNumber
