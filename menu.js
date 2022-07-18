@@ -1,7 +1,5 @@
 const help = (p, date, user, wame) => {
-return `Olá @${user} bem vindo ao ✟🔥⃢⃟𝘼𝙇𝘼⃟𝙎𝙏𝙊𝙍 𝘽𝙊⃟𝙏🔥✟, 
-vejo aqui que você assinou meu contrato então tem acesso ao menu,
-se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
+return `*Olá _@${user}_ bem vindo ao ✟🔥⃢⃟𝘼𝙇𝘼⃟𝙎𝙏𝙊𝙍 𝘽𝙊⃟𝙏🔥✟, vejo aqui que você assinou meu contrato então tem acesso ao menu, se quiser ver minhas redes sociais escreva o comandos ${p}sociais.*
 
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋✟🔥⃢⃟𝘼𝙇𝘼⃟𝙎𝙏𝙊𝙍 𝘽𝙊⃟𝙏🔥✟
@@ -36,6 +34,8 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋  🎵 𝘼𝙐𝘿𝙄𝙊 🎵
 ┋
+┋ ${p}snaptube (name or yt link) 
+┋ ${p}snap (name or yt link) 
 ┋ ${p}gtts (la) (txt) 
 ┋ ${p}lyrics 
 ┋ ${p}ptlyrics  
@@ -68,14 +68,14 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋  😎 𝘾𝙍𝙄𝘼𝘿𝙊𝙍 😎
 ┋
+┋ ${p}entrargp (group link) 
 ┋ ${p}blocklevel (1 or 0) 
 ┋ ${p}blockcmd (cmd sem prefix) 
 ┋ ${p}unblockcmd (cmd sem prefix) 
 ┋ ${p}antispamcmd (1 or 0) 
+┋ ${p}antinewchat (1 or 0) 
 ┋ ${p}antipv (1 or 0) 
-┋ ${p}antiligar (1 or 0)
-┋ ${p}addpalavra (txt) 
-┋ ${p}rmpalavra (txt) 
+┋ ${p}anticall (1 or 0) 
 ┋ ${p}block (num)
 ┋ ${p}msg (reply msg)
 ┋ ${p}unblock (num) 
@@ -145,8 +145,7 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ┋┋ ${p}tttme 
 ┋┋ ${p}tttrank 
 ┋┋ ${p}ttthelp 
-┋┋ ${p}delttc  
-┋┋ ${p}tttplayer (dial num)
+┋┋ ${p}delttc
 ┋╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
 ┋
 ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
@@ -261,13 +260,15 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ┋ ${p}antilink (1 or 0) 
 ┋ ${p}antiporn (1 or 0) 
 ┋ ${p}antifake (1 or 0) 
-┋ ${p}dontback (1 or 0) 
 ┋ ${p}antilinkhard (1 or 0) 
 ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
 
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋   👥 𝙂𝙍𝙐𝙋𝙊𝙎 👥
 ┋
+┋ ${p}del (dial msg)
+┋ ${p}addpalavra (txt) 
+┋ ${p}rmpalavra (txt)
 ┋ ${p}listfake 
 ┋ ${p}listbr 
 ┋ ${p}listddd (country code) 
@@ -275,9 +276,9 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ┋ ${p}dbackrm (num)  
 ┋ ${p}fechargp 
 ┋ ${p}fecharhr 12:00
+┋ ${p}abrirhr 12:00
 ┋ ${p}mudarnome 
 ┋ ${p}abrirgp 
-┋ ${p}abrirhr 12:00
 ┋ ${p}linkgroup 
 ┋ ${p}listadmin 
 ┋ ${p}leave 
@@ -285,6 +286,7 @@ se quiser ver minhas redes sociais escreva o comandos ${p}sociais.
 ┋ ${p}ban (resp msg) 
 ┋ ${p}promote (dial num) 
 ┋ ${p}demote (dial num) 
+┋ ${p}dontback (1 or 0) 
 ┋ ${p}roletrussablock (1 or 0) 
 ┋ ${p}simih (1 or 0) 
 ┋ ${p}autostickerimg (1 or 0) 
