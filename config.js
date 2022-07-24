@@ -1,10 +1,10 @@
-const ownerNumber = ["557187645787@s.whatsapp.net"] 
+const ownerNumber = ["51931263982@s.whatsapp.net"] 
 // mude somente o numero e não tire o @s.whatsapp.net
 
-const OriginalOwner = '557187645787' 
+const OriginalOwner = '51931263982' 
 // mude para seu numero
 
-const menuimg = 'https://i.imgur.com/2KJfprY.jpg'
+const menuimg = 'https://gate.ahram.org.eg/Media/News/2017/4/25/2017-636287321866623124-662.jpg'
 // Link da foto do menu
 
 const registeruser = false
@@ -13,10 +13,10 @@ const registeruser = false
 const panelOn = true
 // Liga o modo painel do proprietário no bot
 
-const antinewchatmsg = 'O anti chat novo está ativado e você não é meu proprietário, logo será bloqueado'
+const antinewchatmsg = '🚫El nuevo anti chat está activado y no eres mi dueño, por lo que serás bloqueado🚫'
 //mensagem do antinewchat
 
-const antipvmsg = '*🚫 PV BLOQUEADO 🚫*'
+const antipvmsg = '🚫 PV BLOQUEADO 🚫'
 //mensagem do antipv
 
 const limitqnt = 9999
@@ -27,7 +27,7 @@ const delayantispamcmd = 3
 //Texto de boas vindas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const titlemenumsgimg = 'BEM-VINDO'
+const titlemenumsgimg = 'BIENVENIDO'
 //Título no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
@@ -42,17 +42,17 @@ const backgroundbyeimg = `https://i.imgur.com/2TCj9ri.jpg`
 var prefixs = ['!', '.', '@']
 // prefixo
 
-const blockedmsg = '🚫 *Caro senhor, você foi bloqueado pelo meu chefe, Não mande mais comando para mim se não quer ter uma visita* 🚫'
+const blockedmsg = '🚫 🥷🏻 *Estimado señor(a), ha sido bloqueado por mi jefe, no me envíe más comandos si no quiere tener una visita* 🥷🏻🚫 🚫'
 // mensagem quando alguem bloqueado solicita um comando
 
-const blockedcmdmsg = '*🚫 Esse comando não está disponível no momento meu amigo 🚫*'
+const blockedcmdmsg = '*🚫 Este comando no está disponible actualmente mi amigo,entiende putin 🚫*'
 // mensagem quando alguem solicita um comando bloqueado 
 
-const banmsgtype = '*Ora ora ora, parece que alguém mandou uma mensagem proibida, hora da punição*'
+const banmsgtype = '*Bueno, bueno, parece que alguien envió un mensaje prohibido, hora del castigo* 🩸🥷🏻🥷🏻🥷🏻🩸'
 // mensagem de ban no anti tipos de mensagem
 
-const ativohelp = `Veja bem meu caro amigo, a contagem de mensagens é por grupo e consiste em rankear, listar, remover pessoas de acordo
-com a frequência de mensagens no grupo, veja abaixo os comandos para administrar as mensagens do grupo:
+const ativohelp = `Ver mi querido amigo, el recuento de mensajes es por grupo y consiste en clasificar, enumerar y eliminar personas en consecuencia.
+con la frecuencia de los mensajes en el grupo, vea a continuación los comandos para administrar los mensajes del grupo:
 
 checkativo (marcar) - lista a frequência de mensagens do membro marcado
 rankativo - rankea as pessoas mais ativas do grupo
@@ -62,39 +62,39 @@ atividade - lista a atividade de todos membros do grupo
 
 Obs: O número de mensagens pode estar impreciso devido a contagem ser pelo bot.`
 
-const adminmsgtype = '*Olá caro adm, parece que você mandou uma mensagem proibida, vou fingir que não vi isso*'
+const adminmsgtype = '*Bueno, bueno, parece que alguien envió un mensaje prohibido, hora del castigo* 🩸🥷🏻🥷🏻🥷🏻🩸*'
 // mensagem de quando adm manda tipos de mensagens proibidas
 
-const banmsgporn = '*Atos depravados não serão tolerados aqui, te vejo no inferno...*'
+const banmsgporn = '*Aquí no se tolerarán actos depravados, nos vemos en el infierno...🩸🥷🏻🥷🏻🥷🏻🩸*'
 // mensagem de ban no antiporn
 
-const adminmsgporn = '*Olá caro adm, você enviou coisas libidonas neste grupo, vou apenas fingir que não vi nada*'
+const adminmsgporn = '*Bueno, bueno, parece que alguien envió un mensaje prohibido, hora del castigo* 🩸🥷🏻🥷🏻🥷🏻🩸'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = '*Links não serão tolerados aqui, até nunca escória...*'
+const banmsglink = '*Acá está Prohibido enviar enlaces, ban hastá próximo🥷🏻🥷🏻🥷🏻...*'
 // mensagem de ban no antilink
 
-const adminmsglink = '*Olá senhor adm, você mandou um link neste grupo, porém vou fingir que não vi nada*'
+const adminmsglink = '*Este es un enlace Putin...evita ser castigado 🥷🏻🥷🏻🥷*🏻'
 // mensagem de quando adm manda link
 
-const msgerr = 'Desculpe-me meu jovem não consegui atender seu desejo'
+const msgerr = 'ERROR, FFF'
 // mensagem de erro
 
-const notregister = `*Este comando não está registrado senhor, solicito para que veja o menu*`
+const notregister = `*Estas loc@, este comando no está registrado señor, por favor vea el menú*`
 // KEYS
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
-    wait: 'Um momento meu jovem... ⌛',
+    wait: 'Un momento... ⌛',
     error: {
-        stick: 'Desculpe-me senhor, mas houve falha ao converter para sticker ❌',
+        stick: '❌hubo un error al convertir a la etiqueta FFF ❌',
     },
     only: {
-        group: 'Infelizmente este comando está disponível somente para grupos meu caro! 🚫',
-        ownerG: 'Este comando somente meu chefe pode usar! 🚫',
-        ownerB: 'Este comando somente o grupo do meu chefe pode usar! 🚫',
-        admin: 'Se ponha no seu lugar membro comum 🚫',
-        Badmin: 'Não sou administrador desse grupo, não posso fazer nada 🚫',
+        group: '❌ Desafortunadamente, este comando solo está disponible para grupos, Putin! ❌',
+        ownerG: '❌ Este comando solo puede usar mi jefe! ❌',
+        ownerB: '❌ Este comando solo puede ser usado por mi jefe!  ❌',
+        admin: '❌ SILENCIO MIEMBRO COMÚN NO TIENE MORAL PARA USAR ESTE COMANDO ❌',
+        Badmin: '❌ ¡Este comando solo se puede usar cuando el bot se convierte en administrador! ❌',
     }
 }
 
@@ -103,7 +103,7 @@ const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n' 
 + 'FN:Meu Chefe\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764 5787\n' 
++ 'TEL;type=CELL;type=VOICE;waid=51931263982:+51 931 263 982\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
