@@ -1,8 +1,8 @@
 const help = (p, date, user, wame) => {
-return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟, 
+return `*HOla _@${user}_ Bienvenido a menú  ✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟,
 
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
-┋✟🔥𝐊𝐀𝐍𝐈𝐄𝐋🔥✟
+┋✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟
 ┋  
 ┋ 🕐 𝐃𝐚𝐭𝐚: ${date}
 ┋ 🌎 𝐖𝐚𝐦𝐞: 
@@ -11,13 +11,15 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
 
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
-┋ ⚡ *PRINCIPAL* ⚡
-┋ 
+┋ ⚡ 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙄𝙎 ⚡
+┋
+┋ *${p}rbug* 
 ┋ ${p}listblockcmd 
 ┋ ${p}listpalavra 
 ┋ ${p}info 
 ┋ ${p}ajuda 
 ┋ ${p}help 
+┋ ${p}oficialcriador 
 ┋ ${p}comandos 
 ┋ ${p}menulite 
 ┋ ${p}menu 
@@ -31,6 +33,8 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋  🎵 𝘼𝙐𝘿𝙄𝙊 🎵
 ┋
+┋ ${p}snaptube (name or yt link) 
+┋ ${p}snap (name or yt link) 
 ┋ ${p}gtts (la) (txt) 
 ┋ ${p}lyrics 
 ┋ ${p}ptlyrics  
@@ -63,14 +67,14 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋  😎 𝘾𝙍𝙄𝘼𝘿𝙊𝙍 😎
 ┋
+┋ ${p}entrargp (group link) 
 ┋ ${p}blocklevel (1 or 0) 
 ┋ ${p}blockcmd (cmd sem prefix) 
 ┋ ${p}unblockcmd (cmd sem prefix) 
 ┋ ${p}antispamcmd (1 or 0) 
+┋ ${p}antinewchat (1 or 0) 
 ┋ ${p}antipv (1 or 0) 
-┋ ${p}antiligar (1 or 0)
-┋ ${p}addpalavra (txt) 
-┋ ${p}rmpalavra (txt) 
+┋ ${p}anticall (1 or 0) 
 ┋ ${p}block (num)
 ┋ ${p}msg (reply msg)
 ┋ ${p}unblock (num) 
@@ -117,13 +121,6 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 ┋╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
 ┋
 ┋╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
-┋┋ 🧞‍♂️ 𝘼𝙆𝙄𝙉𝘼𝙏𝙊𝙍 🧞‍♂️
-┋┋
-┋┋ ${p}akinator
-┋┋ ${p}resetaki
-┋╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
-┋
-┋╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋┋💥 𝙍𝙊𝙇𝙀𝙏𝘼 𝙍𝙐𝙎𝙎𝘼 💥
 ┋┋
 ┋┋ ${p}helproleta 
@@ -140,8 +137,7 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 ┋┋ ${p}tttme 
 ┋┋ ${p}tttrank 
 ┋┋ ${p}ttthelp 
-┋┋ ${p}delttc  
-┋┋ ${p}tttplayer (dial num)
+┋┋ ${p}delttc
 ┋╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
 ┋
 ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
@@ -256,13 +252,15 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 ┋ ${p}antilink (1 or 0) 
 ┋ ${p}antiporn (1 or 0) 
 ┋ ${p}antifake (1 or 0) 
-┋ ${p}dontback (1 or 0) 
 ┋ ${p}antilinkhard (1 or 0) 
 ╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╯
 
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
 ┋   👥 𝙂𝙍𝙐𝙋𝙊𝙎 👥
 ┋
+┋ ${p}del (dial msg)
+┋ ${p}addpalavra (txt) 
+┋ ${p}rmpalavra (txt)
 ┋ ${p}listfake 
 ┋ ${p}listbr 
 ┋ ${p}listddd (country code) 
@@ -270,9 +268,9 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 ┋ ${p}dbackrm (num)  
 ┋ ${p}fechargp 
 ┋ ${p}fecharhr 12:00
+┋ ${p}abrirhr 12:00
 ┋ ${p}mudarnome 
 ┋ ${p}abrirgp 
-┋ ${p}abrirhr 12:00
 ┋ ${p}linkgroup 
 ┋ ${p}listadmin 
 ┋ ${p}leave 
@@ -280,6 +278,7 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 ┋ ${p}ban (resp msg) 
 ┋ ${p}promote (dial num) 
 ┋ ${p}demote (dial num) 
+┋ ${p}dontback (1 or 0) 
 ┋ ${p}roletrussablock (1 or 0) 
 ┋ ${p}simih (1 or 0) 
 ┋ ${p}autostickerimg (1 or 0) 
@@ -415,3 +414,4 @@ return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟,
 }
 
 exports.help = help
+
