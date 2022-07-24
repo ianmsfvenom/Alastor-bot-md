@@ -1,8 +1,8 @@
 const help = (p, date, user, wame) => {
-return `HOla @${user} Bienvenido a menú ✟ROCKET✟, 
+return `HOla @${user} Bienvenido a menú ✟𝐊𝐀𝐍𝐈𝐄𝐋✟, 
 
 ╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅╮
-┋✟🔥ROCKET🔥✟
+┋✟🔥𝐊𝐀𝐍𝐈𝐄𝐋🔥✟
 ┋  
 ┋ 🕐 𝐃𝐚𝐭𝐚: ${date}
 ┋ 🌎 𝐖𝐚𝐦𝐞: 
